@@ -11,6 +11,3 @@ def cadastro(request):
 def lista(request):
     return render(request, 'core/lista.html')
 
-
-def detalhe(request):
-    return render(request, 'core/detalhe.html')
