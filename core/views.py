@@ -11,6 +11,6 @@ def cadastro(request):
 def lista(request):
     return render(request, 'core/lista.html')
 
-
+#teste
 def detalhe(request):
     return render(request, 'core/detalhe.html')
