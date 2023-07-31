@@ -6,7 +6,9 @@
 <div class="mt-5">
 
     <h2>Formulário</h2>
-    <form>
+    <form method="post">
+         {% csrf_token %}
+
         <div class="form-group">
             <label for="exampleInputEmail1">Nome:</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
