@@ -23,5 +23,5 @@ urlpatterns = [
     path('',index,name='index'),
     path('form/',cadastro,name='cadastro'),
     path('lista/',lista,name='lista'),
-    path('detalhe/',detalhe,name='detalhe'),
+    path('detalhe/<int:id>/',detalhe,name='detalhe'),
 ]

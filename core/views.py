@@ -12,5 +12,5 @@ def lista(request):
     return render(request, 'core/lista.html')
 
 #teste
-def detalhe(request):
+def detalhe(request,id):
     return render(request, 'core/detalhe.html')
